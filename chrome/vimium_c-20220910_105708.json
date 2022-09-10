@@ -1,0 +1,97 @@
+{
+	"name": "Vimium C",
+	"@time": "2022/9/10 10:57:08",
+	"time": 1662778628107,
+	"environment": {
+		"extension": "1.99.3",
+		"platform": "win",
+		"chromium": "105"
+	},
+	"allBrowserUrls": true,
+	"exclusionRules": [
+		{
+			"passKeys": "/ ",
+			"pattern": "^https://www.google.com(\\..*)?/search"
+		},
+		{
+			"passKeys": "^ O X f o x ",
+			"pattern": "^https://www.acfun.cn/v/"
+		},
+		{
+			"passKeys": "^ O X f i k o o u x ",
+			"pattern": ":https://www.bilibili.com/medialist/"
+		},
+		{
+			"passKeys": "^ O X f i k o o u x ",
+			"pattern": "^https?://www.bilibili.com/video/"
+		},
+		{
+			"passKeys": "^ O X f o x ",
+			"pattern": "^https://www.youtube.com/watch"
+		},
+		{
+			"passKeys": "",
+			"pattern": "^https://qwerty.kaiyi.cool"
+		}
+	],
+	"keyLayout": 20,
+	"keyMappings": [
+		"#!no-check",
+		"map j previousTab",
+		"map <c-j> goBack",
+		"map l nextTab",
+		"map <c-l> goForward",
+		"map i scrollPageUp",
+		"map k scrollPageDown",
+		"map e scrollPageUp",
+		"",
+		"map ] zoomIn",
+		"map [ zoomOut",
+		"map \\ zoomReset",
+		"",
+		"map u Vomnibar.activate",
+		"map o Vomnibar.activateInNewTab",
+		"map yY copyCurrentTitle",
+		"map yu LinkHints.activateCopyLinkUrl",
+		"map yt LinkHints.activateCopyLinkText",
+		"map yf LinkHints.activateHover",
+		"",
+		"map q autoOpen",
+		"unmap <c-e>",
+		"unmap <c-y>",
+		""
+	],
+	"linkHintCharacters": "jkdlsaieowytpqcnx",
+	"linkHintNumbers": "jdkslawoeiruqpzxcvnm",
+	"searchEngines": [
+		"哔哩|bl|bili: https://search.bilibili.com/all?keyword=$s&from_source=webtop_search",
+		"  blank=http://www.bilibili.com/ 哔哩哔哩",
+		"ba|baidu|百度: https://www.baidu.com/s?ie=utf-8&wd=%s \\",
+		"  blank=https://www.baidu.com/ 百度",
+		"必应|bi|bing: https://bing.com/search?q=%s",
+		"  blank=https://www.bing.com/ 必应",
+		"yh|yahoo: https://search.yahoo.com/search?p=%s Yahoo",
+		"yt|youtube: https://www.youtube.com/results?search_query=%s \\",
+		"  blank=https://www.youtube.com/ YouTube",
+		"wiki: https://www.wikipedia.org/w/index.php?search=%s Wikipedia",
+		"g.s|gs|gscholar: https://scholar.google.com/scholar?q=$s \\",
+		"  scholar.google.com re=/^(?:\\.[a-z]{2,4})?\\/scholar\\b.*?[#&?]q=([^#&]*)/i\\",
+		"  blank=https://scholar.google.com/ Google Scholar",
+		"",
+		"gh|github: https://github.com/search?q=$s \\",
+		"  blank=https://github.com/ GitHub Repo",
+		"ge|gitee: https://search.gitee.com/?type=repository&q=$s \\",
+		"  blank=https://gitee.com/ Gitee 仓库",
+		"gl: https://translate.google.cn/?sl=en&tl=zh-CN&text=%s&op=translate",
+		"  blank=https://translate.google.cn",
+		"js\\:|Js: javascript:\\ $S; JavaScript",
+		"",
+		"",
+		"bt: https://btsow.bar/search/$s \\",
+		"  blank=https://btsow.bar/tags BTSOW",
+		""
+	],
+	"showAdvancedCommands": false,
+	"vimSync": false,
+	"ignoreCapsLock": 2
+}

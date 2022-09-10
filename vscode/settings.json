@@ -1,0 +1,79 @@
+{
+  "editor.fontFamily": "Hack, '微软雅黑', monospace, Consolas, 'Courier New'",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Quiet Light",
+  "workbench.editor.highlightModifiedTabs": true,
+  // scpell checker 字典
+  "cSpell.userWords": ["axios", "hulnone"],
+  // Path Autocomplete 设置
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src"
+  },
+  // eslint设置
+  "eslint.alwaysShowStatus": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.ignoreProjectWarning": true,
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    },
+    "prettier": {
+      "trailingComma": "none",
+      "semi": false,
+      "singleQuote": true,
+      "arrowParens": "avoid",
+      "printWidth": "500"
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "docthis.includeDescriptionTag": true,
+  "workbench.sideBar.location": "right",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 200,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.trailingComma": "none",
+  "prettier.useEditorConfig": false,
+  "markdown-pdf.displayHeaderFooter": false,
+  "editor.cursorBlinking": "smooth",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "volar.autoWrapParentheses": false,
+  "volar.completion.preferredAttrNameCase": "auto-camel",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.colorTheme": "Quiet Light",
+  "files.autoSave": "afterDelay"
+}
